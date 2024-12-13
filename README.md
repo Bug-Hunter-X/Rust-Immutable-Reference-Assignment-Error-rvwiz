@@ -1,0 +1,3 @@
+# Rust Immutable Reference Assignment Error
+
+This repository demonstrates a common error in Rust programming: attempting to modify a value through an immutable reference.  The code attempts to increment the value of 'x' through an immutable reference 'z', which results in a compile-time error because of Rust's strict borrowing rules. The solution provides a corrected version of the code using mutable references where appropriate.
